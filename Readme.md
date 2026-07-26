@@ -1,10 +1,18 @@
 # 💡 Lumos
 
-> AI-powered CLI that explains compiler and runtime errors in plain English.
+> AI-powered CLI that explains compiler in plain English.
 
 Lumos is a command-line tool that analyzes compiler and terminal errors using Large Language Models (LLMs). Prefix your command with `lumos run` and receive a structured explanation, root cause analysis, and actionable debugging steps directly in your terminal.
 
 ---
+> **🚧 Project Status**
+>
+> Lumos is currently in **active development**.
+>
+> - ✅ Compiler error analysis is implemented and functional.
+> - ⚠️ Runtime error analysis is under active development and is being continuously improved.
+> - 🚀 Support for additional languages, smarter stack trace analysis, and offline/local LLM support is planned.
+
 
 ## ✨ Features
 
@@ -174,8 +182,6 @@ lumos run node app.js
 
 lumos run java Main
 
-lumos run go run main.go
-
 lumos run demo.exe
 ```
 
@@ -186,13 +192,10 @@ lumos run demo.exe
 Lumos is language-agnostic and currently works with commands from languages such as:
 
 - Python
-- JavaScript / Node.js
+- JavaScript
 - Java
 - C++
 - C
-- C#
-- Go
-- Rust
 - Any executable that returns an error through the terminal
 
 ---
