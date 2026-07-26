@@ -1,0 +1,6 @@
+backend/venv
+backend/.env
+cli/.env
+cli/.venv
+__pycache__/
+cli/lumos.egg-info
